@@ -4,28 +4,28 @@
 class Vobiz < Formula
   desc "Official Vobiz CLI: voice calls, SMS, phone numbers, SIP trunks and VobizXML"
   homepage "https://www.vobiz.ai/docs/resources/cli"
-  version "0.1.0"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/vobiz-ai/Vobiz-CLI/releases/download/v0.1.0/vobiz-0.1.0-darwin-arm64.tar.gz"
-      sha256 "833793dc7fe6765c4e870feb298fc547e2686a5a66bcaea282ec8f3ec72698f6"
+      url "https://github.com/vobiz-ai/Vobiz-CLI/releases/download/v0.1.2/vobiz-0.1.2-darwin-arm64.tar.gz"
+      sha256 "a13206a1c1e32b60ad913bc69bd3328c4266c925db362820d14ba600bca41c47"
     end
     on_intel do
-      url "https://github.com/vobiz-ai/Vobiz-CLI/releases/download/v0.1.0/vobiz-0.1.0-darwin-x64.tar.gz"
-      sha256 "2bb05396b534fcbd4a1631c920bbcb59c2ffc8bb6e1e9b2ec83b09bb126f5a54"
+      url "https://github.com/vobiz-ai/Vobiz-CLI/releases/download/v0.1.2/vobiz-0.1.2-darwin-x64.tar.gz"
+      sha256 "476f0f5e0d75d9589162178f547a7a85bea4709f1b92bcf533979337ec5a7410"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/vobiz-ai/Vobiz-CLI/releases/download/v0.1.0/vobiz-0.1.0-linux-arm64.tar.gz"
-      sha256 "b6b878b2339bb34f4075aeb3083d66c9b8b0a1088dcf8b4b43d54cd913b4858d"
+      url "https://github.com/vobiz-ai/Vobiz-CLI/releases/download/v0.1.2/vobiz-0.1.2-linux-arm64.tar.gz"
+      sha256 "2a5ecc2fe8e5f55edcca6660860b6a046bcdf37631f494c9f4bf539e78dede2c"
     end
     on_intel do
-      url "https://github.com/vobiz-ai/Vobiz-CLI/releases/download/v0.1.0/vobiz-0.1.0-linux-x64.tar.gz"
-      sha256 "dbeeb2f5635887855e1ab801953f01f924e095b343f3a18238c0b22748c54e89"
+      url "https://github.com/vobiz-ai/Vobiz-CLI/releases/download/v0.1.2/vobiz-0.1.2-linux-x64.tar.gz"
+      sha256 "e266c73703c18ca43f7f8fa3cfe1369cd914d7cd35eaf913b8254d54ea940d8c"
     end
   end
 
